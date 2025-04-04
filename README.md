@@ -10,11 +10,24 @@
 
 ### Setup
 ```bash
+# Termux update & git install
+pkg update && pkg upgrade -y
+pkg install git -y
 pkg install python -y
-pip install -r requirements.txt
-python tystrom.py
+
+# Repo 
+git clone https://github.com/TAYYAB-Exploits/TYSTROM-
+
+
+cd TYSTROM-
+
+
+pip install -r requirements.txt || pip3 install -r requirements.txt
+
+
+python ddos.py
 ```
 
 **Tool by:** @TayyabExploits  
-**Developer:** ChatGPT + Tayyab  
+**Developer:**  Tayyab  
 **Use Responsibly — For Educational Purpose Only**
