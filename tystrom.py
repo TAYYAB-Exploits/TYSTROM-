@@ -8,18 +8,15 @@ init(autoreset=True)
 
 def banner():
     os.system("clear")
-    print(Fore.RED + Style.BRIGHT + """
+    print(Fore.YELLOW + Style.BRIGHT + """
 ████████╗██╗   ██╗███████╗████████╗██████╗  ██████╗ ███╗   ███╗
 ╚══██╔══╝██║   ██║██╔════╝╚══██╔══╝██╔══██╗██╔═══██╗████╗ ████║
-   ██║   ██║   ██║███████╗   ██║   ██████╔╝██║   ██║██╔████╔██║
-   ██║   ██║   ██║╚════██║   ██║   ██╔═══╝ ██║   ██║██║╚██╔╝██║
-   ██║   ╚██████╔╝███████║   ██║   ██║     ╚██████╔╝██║ ╚═╝ ██║
+   ██║   ██║   ██║█████╗     ██║   ██████╔╝██║   ██║██╔████╔██║
+   ██║   ██║   ██║██╔══╝     ██║   ██╔═══╝ ██║   ██║██║╚██╔╝██║
+   ██║   ╚██████╔╝███████╗   ██║   ██║     ╚██████╔╝██║ ╚═╝ ██║
    ╚═╝    ╚═════╝ ╚══════╝   ╚═╝   ╚═╝      ╚═════╝ ╚═╝     ╚═╝
-    """)
-    print(Fore.CYAN + "         > Created By: @TayyabExploits")
-    print(Fore.YELLOW + "         > Tool Name: TYSTROM")
-    print(Fore.GREEN + "         > Educational Purpose Only")
-    print(Fore.MAGENTA + "         > Developer: @TayyabExploits")
+                 created by @Tayyabexploits            TYSTROM
+""")
 
 def menu():
     while True:
@@ -33,19 +30,24 @@ def menu():
         choice = input(Fore.CYAN + "Select option: ")
 
         if choice == '1':
+            print(Fore.YELLOW + "[*] Launching DDOS Attack...")
             start_ddos()
         elif choice == '2':
+            print(Fore.YELLOW + "[*] Opening YouTube...")
             webbrowser.open("https://www.youtube.com/@Tayyabexploits")
         elif choice == '3':
+            print(Fore.YELLOW + "[*] Opening WhatsApp...")
             webbrowser.open("https://whatsapp.com/channel/0029VanMDac05MUliOn3T52n")
         elif choice == '4':
+            print(Fore.YELLOW + "[*] Opening Telegram...")
             webbrowser.open("https://t.me/TayyabExploits")
         elif choice == '5':
             print(Fore.RED + "[!] Exiting TYSTROM... Bye!")
             break
         else:
             print(Fore.RED + "[!] Invalid option! Try again.")
-            input("Press Enter...")
+        
+        input(Fore.WHITE + "Press Enter to continue...")
 
 if __name__ == "__main__":
     menu()
