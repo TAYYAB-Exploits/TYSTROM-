@@ -14,7 +14,7 @@ def banner():
    ██║   ██║   ██║██╔══╝     ██║   ██╔═══╝ ██║   ██║██║╚██╔╝██║
    ██║   ╚██████╔╝███████╗   ██║   ██║     ╚██████╔╝██║ ╚═╝ ██║
    ╚═╝    ╚═════╝ ╚══════╝   ╚═╝   ╚═╝      ╚═════╝ ╚═╝     ╚═╝
-                TYSTROM
+                TSTROM
           created by @Tayyabexploits
 """)
 
@@ -34,15 +34,15 @@ def menu():
             start_ddos()
         elif choice == '2':
             print(Fore.YELLOW + "[*] Opening YouTube...")
-            webbrowser.open("https://www.youtube.com/@Tayyabexploits")
+            webbrowser.open("https://www.youtube.com/@Tayyabexploits", new=2)  # Open in a new tab
         elif choice == '3':
             print(Fore.YELLOW + "[*] Opening WhatsApp...")
-            webbrowser.open("https://whatsapp.com/channel/0029VanMDac05MUliOn3T52n")
+            webbrowser.open("https://whatsapp.com/channel/0029VanMDac05MUliOn3T52n", new=2)
         elif choice == '4':
             print(Fore.YELLOW + "[*] Opening Telegram...")
-            webbrowser.open("https://t.me/TayyabExploits")
+            webbrowser.open("https://t.me/TayyabExploits", new=2)
         elif choice == '5':
-            print(Fore.RED + "[!] Exiting TYSTROM... Bye!")
+            print(Fore.RED + "[!] Exiting TSTROM... Bye!")
             break
         else:
             print(Fore.RED + "[!] Invalid option! Try again.")
