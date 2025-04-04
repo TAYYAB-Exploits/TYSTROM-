@@ -1,4 +1,3 @@
-# tystrom.py
 import os
 import webbrowser
 from ddos import start_ddos
@@ -15,17 +14,18 @@ def banner():
    ██║   ██║   ██║██╔══╝     ██║   ██╔═══╝ ██║   ██║██║╚██╔╝██║
    ██║   ╚██████╔╝███████╗   ██║   ██║     ╚██████╔╝██║ ╚═╝ ██║
    ╚═╝    ╚═════╝ ╚══════╝   ╚═╝   ╚═╝      ╚═════╝ ╚═╝     ╚═╝
-                 created by @Tayyabexploits            TYSTROM
+                TYSTROM
+          created by @Tayyabexploits
 """)
 
 def menu():
     while True:
         banner()
-        print(Fore.GREEN + "1. DDOS Attack")
-        print("2. YOUTUBE Channel")
-        print("3. WHATSAPP Channel")
-        print("4. TELEGRAM Channel")
-        print("5. Exit")
+        print(Fore.GREEN + "1. " + Fore.CYAN + "DDOS Attack")
+        print(Fore.GREEN + "2. " + Fore.RED + "YouTube Channel")
+        print(Fore.GREEN + "3. " + Fore.MAGENTA + "WhatsApp Channel")
+        print(Fore.GREEN + "4. " + Fore.BLUE + "Telegram Channel")
+        print(Fore.GREEN + "5. " + Fore.YELLOW + "Exit")
 
         choice = input(Fore.CYAN + "Select option: ")
 
@@ -46,7 +46,7 @@ def menu():
             break
         else:
             print(Fore.RED + "[!] Invalid option! Try again.")
-        
+
         input(Fore.WHITE + "Press Enter to continue...")
 
 if __name__ == "__main__":
