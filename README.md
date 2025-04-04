@@ -3,6 +3,7 @@
 **TYSTROM** is a powerful, colorful tool built for stress testing and learning networking basics.
 
 ### Features:
+- PERFORM DDOS
 - Colorful terminal UI
 - DDOS Test Tool (educational)
 - Direct access to YouTube, WhatsApp & Telegram
