@@ -1,13 +1,13 @@
 # TYSTROM
 
-**TYSTROM** is a powerful, colorful tool built for stress testing and learning networking basics.
+**TYSTROM** is a powerful, Tool built for stress testing and learning networking basics.
 
 ### Features:
 - PERFORM DDOS
-- Colorful terminal UI
+- terminal UI
 - DDOS Test Tool (educational)
-- Direct access to YouTube, WhatsApp & Telegram
-- Banner and Creator Credits
+- Access to YouTube, WhatsApp & Telegram
+- Creator Credits @Tayyabexploits
 
 ### Setup
 ```bash
@@ -24,11 +24,7 @@ git clone https://github.com/TAYYAB-Exploits/TYSTROM-
 
 cd TYSTROM-
 
-
-pip install -r requirements.txt || pip3 install -r requirements.txt
-
-
-python ddos.py
+python tystrom.py
 ```
 
 **Tool by:** @TayyabExploits  
