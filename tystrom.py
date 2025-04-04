@@ -19,7 +19,7 @@ def banner():
     print(Fore.CYAN + "         > Created By: @TayyabExploits")
     print(Fore.YELLOW + "         > Tool Name: TYSTROM")
     print(Fore.GREEN + "         > Educational Purpose Only")
-    print(Fore.MAGENTA + "         > Developer: ChatGPT x @TayyabExploits
+    print(Fore.MAGENTA + "         > Developer: @TayyabExploits
 ")
 
 def menu():
