@@ -19,8 +19,7 @@ def banner():
     print(Fore.CYAN + "         > Created By: @TayyabExploits")
     print(Fore.YELLOW + "         > Tool Name: TYSTROM")
     print(Fore.GREEN + "         > Educational Purpose Only")
-    print(Fore.MAGENTA + "         > Developer: @TayyabExploits
-")
+    print(Fore.MAGENTA + "         > Developer: @TayyabExploits")
 
 def menu():
     while True:
@@ -29,11 +28,10 @@ def menu():
         print("2. YOUTUBE Channel")
         print("3. WHATSAPP Channel")
         print("4. TELEGRAM Channel")
-        print("5. Exit
-")
+        print("5. Exit")
 
         choice = input(Fore.CYAN + "Select option: ")
-        
+
         if choice == '1':
             start_ddos()
         elif choice == '2':
@@ -43,8 +41,7 @@ def menu():
         elif choice == '4':
             webbrowser.open("https://t.me/TayyabExploits")
         elif choice == '5':
-            print(Fore.RED + "
-[!] Exiting TYSTROM... Bye!")
+            print(Fore.RED + "[!] Exiting TYSTROM... Bye!")
             break
         else:
             print(Fore.RED + "[!] Invalid option! Try again.")
