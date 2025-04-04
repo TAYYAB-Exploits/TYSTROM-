@@ -15,7 +15,9 @@
 pkg update && pkg upgrade -y
 pkg install git -y
 pkg install python -y
-
+pkg install python
+pip install requests
+pip install colorama
 # Repo 
 git clone https://github.com/TAYYAB-Exploits/TYSTROM-
 
